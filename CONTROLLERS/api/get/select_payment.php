@@ -5,7 +5,6 @@ include_once '../../../models/get.php';
 
 $data = json_decode(file_get_contents('php://input'));
 $obj = new Get();
-// $result = $obj->select_payment();
-$result='123';
+$result = $obj->select_payment();
 echo json_encode($result);
 ?>
