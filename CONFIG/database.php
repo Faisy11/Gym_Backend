@@ -4,9 +4,14 @@ class Database
 
    
     private $servername = "localhost";
-    private $username = "root";
-    private $password = "";
-    private $dbname = "gym";
+    private $username = "u651328475_gym_be";
+    private $password = "Gym_be@123";
+    private $dbname = "u651328475_gym_be";
+
+    // private $servername = "localhost";
+    // private $username = "root";
+    // private $password = "";
+    // private $dbname = "gym";
     private $conn;
 
     public function connect()
