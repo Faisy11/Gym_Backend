@@ -3,7 +3,7 @@ class Database
 {
 
    
-    private $servername = "193.203.184.1";
+    private $servername = "localhost";
     private $username = "u651328475_gym_be";
     private $password = "Gym_be@123";
     private $dbname = "u651328475_gym_be";
